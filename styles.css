@@ -1,7 +1,25 @@
-#1{
-  display: inline-block;
-  width: 100px;
-  height: 100px;
+.image-card {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  height: 150px;
   border: 2px solid rgba(51, 154, 240, 1);
   box-shadow: 0px 0px 10px 1px rgba(51, 154, 240, 1);
+}
+.image-card:hover {
+  box-shadow: 0px 0px 15px 3px rgba(51, 154, 240, 1);
+}
+.card-background {
+  height: 120px;
+  overflow: hidden;
+}
+.card-background img {
+  width: 100%;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
 }
