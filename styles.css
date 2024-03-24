@@ -22,4 +22,5 @@
   align-items: center;
   justify-content: center;
   height: 30px;
+  border-top: 2px solid rgba(51, 154, 240, 1);
 }
